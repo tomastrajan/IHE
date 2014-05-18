@@ -1,0 +1,1 @@
+IHE.ApplicationAdapter = DS.FixtureAdapter;

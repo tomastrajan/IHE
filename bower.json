@@ -1,0 +1,14 @@
+{
+  "name": "IHE",
+  "version": "0.0.0",
+  "dependencies": {
+	"jQuery": "2.1.1",
+    "ember": "1.5.1",
+    "handlebars": "v1.3.0",
+    "ember-data": "1.0.0-beta.7",
+    "bootstrap-sass": "~3.0.0"
+  },
+  "devDependencies": {
+    "ember-mocha-adapter": "0.1.2"
+  }
+}

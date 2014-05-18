@@ -1,0 +1,35 @@
+$icon-font-path: "../styles/fonts/"; // Change the path to the fonts
+$colorBorder: #e7e7e7;
+$colorBackground: #eeeeee;
+$colorBackgroundMain: #ffffff;
+
+@import "bootstrap-sass/lib/bootstrap";
+
+/* Put your CSS here */
+html, body {
+    margin: 30px 0 0 0;
+	background-color: $colorBackground;
+}
+
+.navbar {
+	.btn {
+		margin-left: 5px;
+	}
+}
+
+.bg-fix {
+	position:relative;
+	top:-10px;
+	padding-top:20px;
+	background-color: $colorBackgroundMain;
+	padding-bottom: 50px;
+}
+
+.footer {
+	padding-top:20px;
+	border-top:1px solid $colorBorder;
+
+	.signature {
+		margin-top:20px;
+	}
+}
