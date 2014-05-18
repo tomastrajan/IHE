@@ -5,5 +5,14 @@ IHE.SecureRoute = Ember.Route.extend({
 		if (isLoggedIn !== true) {
 			this.transitionTo('public');
 		}
+	},
+
+	model : function() {
+		var _this = this;
+		return new Ember.RSVP.Promise(function(resolve) {
+			setTimeout(function() {
+				resolve('true');
+			}, 500);
+		});
 	}
 });

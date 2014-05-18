@@ -1,5 +1,16 @@
+Ember.Route.reopen({
+	beforeModel : function() {
+		console.log('before');
+		return this._super();
+	},
+	afterModel : function() {
+		console.log('after');
+		return this._super();
+	}
+});
+
 var IHE = window.IHE = Ember.Application.create({
-	LOG_TRANSITIONS: true
+	LOG_TRANSITIONS : true
 });
 
 /* Order and include as you please. */
